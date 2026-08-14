@@ -1,6 +1,16 @@
 {
-  "name": "next-app-init",
-  "version": "0.1.0",
+  "name": "better-next",
+  "version": "2.6.11",
+  "author": {
+    "name": "baiwumm",
+    "email": "me@baiwumm.com",
+    "url": "https://baiwumm.com"
+  },
+  "git": {
+    "url": "https://github.com/baiwumm/better-next",
+    "repository": "https://github.com/baiwumm/better-next.git",
+    "bugs": "https://github.com/baiwumm/better-next/issues"
+  },
   "private": true,
   "packageManager": "pnpm@10.33.0",
   "scripts": {
