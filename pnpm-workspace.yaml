@@ -1,3 +1,13 @@
+shellEmulator: true
+
+trustPolicy: no-downgrade
+trustPolicyExclude:
+  - resend
+  - react-email
+  - chokidar
+  - '@react-email/*'
+  - '@resend/*'
+
 ignoredBuiltDependencies:
   - sharp
   - unrs-resolver
