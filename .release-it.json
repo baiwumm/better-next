@@ -1,0 +1,16 @@
+{
+  "git": {
+    "commitMessage": "chore: Release v${version}",
+    "tagName": "v${version}",
+    "tagAnnotation": "Release v${version}",
+    "push": true,
+    "requireCleanWorkingDir": true,
+    "requireBranch": "main"
+  },
+  "npm": {
+    "publish": false
+  },
+  "hooks": {
+    "after:release": "echo ✅ 已发布 v${version}"
+  }
+}
